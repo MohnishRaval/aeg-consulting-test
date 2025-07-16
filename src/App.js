@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ProductCard from './ProductCard';
+
+const sampleProduct = {
+  name: 'Wireless Headphones',
+  image: '/product.jpg',
+  price: 129.99,
+  variants: ['Black', 'White', 'Blue'],
+  stock: 5, // Change to 0 to test "Out of Stock"
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        padding: '30px',
+        backgroundColor: '#f2f2f2',
+        minHeight: '100vh',
+      }}
+    >
+      <ProductCard product={sampleProduct} />
     </div>
   );
 }
