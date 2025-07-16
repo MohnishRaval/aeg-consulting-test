@@ -6,7 +6,7 @@ const sampleProduct = {
   image: '/product.jpg',
   price: 129.99,
   variants: ['Black', 'White', 'Blue'],
-  stock: 5, // Change to 0 to test "Out of Stock"
+  stock: 0, // Change to 0 to test "Out of Stock"
 };
 
 function App() {

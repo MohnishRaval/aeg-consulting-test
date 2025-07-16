@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import './ProductCard.css'; // Import the CSS file
+import blackImg from './assets/product-black.jpg';
+import whiteImg from './assets/product-white.jpg';
+import blueImg from './assets/product-blue.jpg';
 
 export default function ProductCard({ product }) {
   const isOutOfStock = product.stock === 0;
 
   // Map each variant to its image path
   const variantImages = {
-    Black: '/product-black.jpg',
-    White: '/product-white.jpg',
-    Blue: '/product-blue.jpg',
+    Black: blackImg,
+    White: whiteImg,
+    Blue: blueImg,
   };
 
   // Default to first variant
