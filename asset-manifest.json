@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aeg-consulting-test/static/css/main.8e7dc00d.css",
-    "main.js": "/aeg-consulting-test/static/js/main.4b2c9688.js",
+    "main.js": "/aeg-consulting-test/static/js/main.80e0b405.js",
     "static/js/453.ccb3a3b5.chunk.js": "/aeg-consulting-test/static/js/453.ccb3a3b5.chunk.js",
     "index.html": "/aeg-consulting-test/index.html",
     "main.8e7dc00d.css.map": "/aeg-consulting-test/static/css/main.8e7dc00d.css.map",
-    "main.4b2c9688.js.map": "/aeg-consulting-test/static/js/main.4b2c9688.js.map",
+    "main.80e0b405.js.map": "/aeg-consulting-test/static/js/main.80e0b405.js.map",
     "453.ccb3a3b5.chunk.js.map": "/aeg-consulting-test/static/js/453.ccb3a3b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e7dc00d.css",
-    "static/js/main.4b2c9688.js"
+    "static/js/main.80e0b405.js"
   ]
 }
